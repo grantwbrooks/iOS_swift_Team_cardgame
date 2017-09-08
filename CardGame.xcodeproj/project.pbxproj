@@ -14,6 +14,7 @@
 		C0C95FEA1F61EF43003C71C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0C95FE81F61EF43003C71C8 /* LaunchScreen.storyboard */; };
 		C0C95FF51F61EF43003C71C8 /* CardGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C95FF41F61EF43003C71C8 /* CardGameTests.swift */; };
 		C0C960001F61EF43003C71C8 /* CardGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C95FFF1F61EF43003C71C8 /* CardGameUITests.swift */; };
+		C0C960101F61F3F9003C71C8 /* cardgame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C9600F1F61F3F9003C71C8 /* cardgame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		C0C95FFB1F61EF43003C71C8 /* CardGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0C95FFF1F61EF43003C71C8 /* CardGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardGameUITests.swift; sourceTree = "<group>"; };
 		C0C960011F61EF43003C71C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0C9600F1F61F3F9003C71C8 /* cardgame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cardgame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				C0C95FE61F61EF43003C71C8 /* Assets.xcassets */,
 				C0C95FE81F61EF43003C71C8 /* LaunchScreen.storyboard */,
 				C0C95FEB1F61EF43003C71C8 /* Info.plist */,
+				C0C9600F1F61F3F9003C71C8 /* cardgame.swift */,
 			);
 			path = CardGame;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0C960101F61F3F9003C71C8 /* cardgame.swift in Sources */,
 				C0C95FE21F61EF43003C71C8 /* ViewController.swift in Sources */,
 				C0C95FE01F61EF43003C71C8 /* AppDelegate.swift in Sources */,
 			);
